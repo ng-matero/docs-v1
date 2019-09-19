@@ -10,4 +10,6 @@ Ng-Matero 中辅助样式类遵循 Material 的设计原则，数值大多是 4 
 
 颜色类分为背景色及文本色，背景色添加 `.bg-` 前缀，文本色添加 `.text-` 前缀
 
+## Helpers
+
 所有辅助样式类可以查看 [Ng-Matero Helpers](https://ng-matero.github.io/ng-matero/#/helpers)

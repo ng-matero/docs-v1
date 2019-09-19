@@ -30,7 +30,9 @@ export const defaults: AppSettings = {
 
 建议不要改动 `setting.ts`，动态设置页面布局可以使用 `setting.service.ts` 服务中的 `setLayout`。
 
-## SettingsService
+## API
+
+### SettingsService
 
 | 方法         | 参数                            | 返回值             | 描述            |
 |-------------|---------------------------------|-------------------|----------------|

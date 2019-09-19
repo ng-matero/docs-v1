@@ -1,0 +1,25 @@
+{
+  "name": "ng-matero-docs",
+  "version": "0.0.0",
+  "description": "The NG-MATERO Docs",
+  "main": "",
+  "scripts": {
+    "start": "gitbook serve",
+    "build": "gitbook build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d _book"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ng-matero/docs.git"
+  },
+  "author": "nzbin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ng-matero/docs/issues"
+  },
+  "homepage": "https://github.com/ng-matero/docs#readme",
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
