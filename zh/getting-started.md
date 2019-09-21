@@ -1,6 +1,6 @@
 # 开始使用
 
-ng-matero 是基于 Angular Material 组件库开发的项目，所以你需要了解 TypeScript 及 Sass 的基础知识。
+Ng-Matero 是基于 Angular Material 组件库开发的项目，所以你需要了解 TypeScript 及 Sass 的基础知识。
 
 ## 安装
 
@@ -12,7 +12,7 @@ $ cd <project-name>
 $ ng add ng-matero
 ```
 
-除了 CLI 安装方式之外，也可以克隆 starter 仓库，不过 starter 只有侧边栏一种布局样式。
+除了 CLI 安装方式之外，也可以克隆 Starter 仓库，不过 Starter 只有侧边栏一种布局样式。
 
 ```bash
 $ git clone --depth=1 git@github.com:ng-matero/starter.git <project-name>
