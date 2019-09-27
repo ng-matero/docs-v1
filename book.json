@@ -1,0 +1,12 @@
+{
+  "gitbook": ">=3.2.0",
+  "plugins": ["github@2.0.0", "language-picker"],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/ng-matero/ng-matero"
+    },
+    "language-picker": {
+      "grid-columns": 3
+    }
+  }
+}
