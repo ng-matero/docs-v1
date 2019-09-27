@@ -26,7 +26,7 @@ export interface Menu {
 }
 ```
 
-## 生成路径
+## 路由路径
 
 ng-matero 的菜单只支持三级，一般来说，二级菜单已经够用了。
 

@@ -1,6 +1,6 @@
 # Summary
 
-* [简介](index.md)
+* [简介](README.md)
 * [开始使用](getting-started.md)
 * [原理图](schematics/index.md)
   * [添加项目](schematics/project-init.md)
@@ -10,7 +10,7 @@
   * [配置菜单](theming/menu.md)
   * [页面标题](theming/title.md)
   * [颜色](theming/colors.md)
-  * [辅助样式类](theming/helpers.md)
+  * [样式辅助类](theming/helpers.md)
 * [第三方库](libs/index.md)
   * [Flex Layout](libs/flex-layout.md)
 * [国际化](i18n/index.md)
