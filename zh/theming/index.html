@@ -1,6 +1,6 @@
 
 <!DOCTYPE HTML>
-<html lang="zh-hans" >
+<html lang="zh" >
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="../../gitbook/style.css">
 
     
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-language-picker/plugin.css">
+                
             
                 
                 <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
@@ -71,7 +75,7 @@
         
             
 <div id="book-search-input" role="search">
-    <input type="text" placeholder="输入并搜索" />
+    <input type="text" placeholder="輸入並搜尋" />
 </div>
 
             
@@ -231,7 +235,7 @@
                 <a href="helpers.html">
             
                     
-                    辅助样式类
+                    样式辅助类
             
                 </a>
             
@@ -296,7 +300,7 @@
 
     <li>
         <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            本书使用 GitBook 发布
+            本書使用 GitBook 釋出
         </a>
     </li>
 </ul>
@@ -335,7 +339,7 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="&#x4E3B;&#x9898;&#x7CFB;&#x7EDF;">&#x4E3B;&#x9898;&#x7CFB;&#x7EDF;</h1>
-<p>Ng-Matero &#x7684;&#x4E3B;&#x9898;&#x7CFB;&#x7EDF;&#x63D0;&#x4F9B;&#x4E86;&#x5E38;&#x7528;&#x7684;&#x4E24;&#x79CD;&#x5E03;&#x5C40;&#xFF08;<code>&#x4FA7;&#x8FB9;&#x680F;&#x5BFC;&#x822A;&#x5E03;&#x5C40;</code> &#x53CA; <code>&#x9876;&#x90E8;&#x5BFC;&#x822A;&#x5E03;&#x5C40;</code>&#xFF09;&#x3001;&#x83DC;&#x5355;&#x670D;&#x52A1;&#x3001;&#x9875;&#x9762;&#x6807;&#x9898;&#x7EC4;&#x4EF6;&#xFF08;&#x9762;&#x5305;&#x5C51;&#x7EC4;&#x4EF6;&#xFF09;&#x3001;&#x5E38;&#x7528;&#x8F85;&#x52A9;&#x6837;&#x5F0F;&#x7C7B;&#x7B49;&#x3002;</p>
+<p>Ng-Matero &#x7684;&#x4E3B;&#x9898;&#x7CFB;&#x7EDF;&#x63D0;&#x4F9B;&#x4E86;&#x4E24;&#x79CD;&#x5E38;&#x7528;&#x5E03;&#x5C40;&#xFF08;<code>&#x4FA7;&#x8FB9;&#x680F;&#x5BFC;&#x822A;&#x5E03;&#x5C40;</code> &#x53CA; <code>&#x9876;&#x90E8;&#x5BFC;&#x822A;&#x5E03;&#x5C40;</code>&#xFF09;&#x3001;&#x83DC;&#x5355;&#x670D;&#x52A1;&#x3001;&#x9875;&#x9762;&#x6807;&#x9898;&#x7EC4;&#x4EF6;&#xFF08;&#x9762;&#x5305;&#x5C51;&#x7EC4;&#x4EF6;&#xFF09;&#x3001;&#x5E38;&#x7528;&#x8F85;&#x52A9;&#x6837;&#x5F0F;&#x7C7B;&#x7B49;&#x3002;</p>
 <blockquote>
 <p>&#x5EFA;&#x8BAE;&#x5728;&#x9879;&#x76EE;&#x521D;&#x59CB;&#x5316;&#x7684;&#x65F6;&#x5019;&#x9009;&#x62E9;&#x4E00;&#x4E2A;&#x56FA;&#x5B9A;&#x7684;&#x5E03;&#x5C40;&#x7C7B;&#x578B;&#xFF0C;&#x5C3D;&#x91CF;&#x4E0D;&#x8981;&#x5728;&#x9879;&#x76EE;&#x542F;&#x52A8;&#x540E;&#x901A;&#x8FC7; <code>options</code> &#x53BB;&#x8BBE;&#x7F6E;&#x5E03;&#x5C40;&#xFF0C;&#x9664;&#x975E;&#x4F60;&#x6709;&#x7279;&#x6B8A;&#x7684;&#x9700;&#x6C42;&#x3002;</p>
 </blockquote>
@@ -352,7 +356,7 @@
 &#x2502;   &#x251C;&#x2500;&#x2500; _variables.scss                     # &#x53D8;&#x91CF;
 &#x2514;&#x2500;&#x2500; &#x2514;&#x2500;&#x2500; app.scss                            # &#x4E3B;&#x9898;&#x6837;&#x5F0F;&#x5165;&#x53E3;&#x6587;&#x4EF6;
 </code></pre>
-<p>&#x4E3A;&#x4E86;&#x65B9;&#x4FBF;&#x4FEE;&#x6539;&#x4E3B;&#x9898;&#x8272;&#x7CFB;&#xFF0C;<code>sidenav</code> &#x548C; <code>topnav</code> &#x4F7F;&#x7528;&#x4E86; mixin</p>
+<p>&#x4E3A;&#x4E86;&#x65B9;&#x4FBF;&#x4FEE;&#x6539;&#x4E3B;&#x9898;&#x8272;&#x7CFB;&#xFF0C;<code>sidenav</code> &#x548C; <code>topnav</code> &#x4F7F;&#x7528;&#x4E86; mixin&#x3002;</p>
 <pre><code class="lang-scss">@<span class="hljs-keyword">mixin</span> matero-admin-theme(<span class="hljs-variable">$theme</span>) {
   @<span class="hljs-keyword">include</span> matero-sidenav-theme(<span class="hljs-variable">$theme</span>);
   @<span class="hljs-keyword">include</span> matero-topnav-theme(<span class="hljs-variable">$theme</span>);
@@ -402,7 +406,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"主题系统","level":"1.4","depth":1,"next":{"title":"配置布局","level":"1.4.1","depth":2,"path":"theming/layout.md","ref":"theming/layout.md","articles":[]},"previous":{"title":"新增路由","level":"1.3.2","depth":2,"path":"schematics/new-route.md","ref":"schematics/new-route.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"index.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"zh-hans","gitbook":"*"},"file":{"path":"theming/index.md","mtime":"2019-09-18T12:26:26.102Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-23T15:35:12.459Z"},"basePath":"..","book":{"language":"zh"}});
+            gitbook.page.hasChanged({"page":{"title":"主题系统","level":"1.4","depth":1,"next":{"title":"配置布局","level":"1.4.1","depth":2,"path":"theming/layout.md","ref":"theming/layout.md","articles":[]},"previous":{"title":"新增路由","level":"1.3.2","depth":2,"path":"schematics/new-route.md","ref":"schematics/new-route.md","articles":[]},"dir":"ltr"},"config":{"plugins":["github@2.0.0","language-picker"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/ng-matero/ng-matero"},"language-picker":{"grid-columns":3},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"zh","gitbook":"*"},"file":{"path":"theming/index.md","mtime":"2019-09-27T08:14:24.239Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-27T14:39:39.373Z"},"basePath":"..","book":{"language":"zh"}});
         });
     </script>
 </div>
@@ -410,6 +414,14 @@
         
     <script src="../../gitbook/gitbook.js"></script>
     <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-language-picker/plugin.js"></script>
+        
     
         
         <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
