@@ -1,6 +1,6 @@
 # Getting Started
 
-Ng-Matero is a project based in Angular Material Components, so you need to know the basics of TypeScript and Sass
+Ng-Matero is a project based in Angular Material Components, so you need to know the basics of TypeScript and Sass.
 
 ## Installation
 
